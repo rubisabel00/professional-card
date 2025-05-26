@@ -75,3 +75,20 @@ p{
     color: #fff;
 
 }
+
+@media screen and (max-width: 750px){
+    .card{
+        width: 80%;
+        height: 90vh;
+    }
+    .card img{
+        width: 70%;
+    }
+    h2{
+        font-size: 2rem;
+    }
+    p{
+        font-size: 1rem;
+    }
+    
+}
