@@ -1,0 +1,77 @@
+:root{
+    --color-blue: #0e5960;
+    --bg-color: #c0eef0;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 95vh;     
+    background-color: var(--bg-color);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    width: 25%;
+    height: 70vh;
+    padding: 1%;
+    background-color: rgb(253, 253, 253);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 2rem;
+    box-shadow: 0px 0px 20px 0px #0e59609a;
+    position: relative;
+   
+
+}
+.card img{
+    width: 60%;
+    border-radius: 50%;
+    box-shadow: 0 0 10px var(--color-blue);
+
+    
+}
+.card-content{
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+h2{
+    color: var(--color-blue);
+    font-size: 2.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    color: #555;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.box-bottom{
+    width: 100%;
+    height: 10vh;
+    background-color: var(--color-blue);
+    position: absolute;
+    bottom: 0;
+    border-radius: 0 0 1rem 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.date-city{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    color: #fff;
+
+}
